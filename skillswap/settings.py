@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
-    '*'
+    "https://skillswap-backend-production-6f1a.up.railway.app"
 ]
 SUPABASE_URL="https://blppgxofprkvrpdhjkck.supabase.co/"
 SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJscHBneG9mcHJrdnJwZGhqa2NrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MTE3OTQ0MiwiZXhwIjoyMDU2NzU1NDQyfQ.GWxrk8IoMlVgPfR0NurtC5iGZWRhXe3hSyRuKwMhf7I'
