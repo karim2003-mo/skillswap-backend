@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-f77!a!n45vj(%ze_-$=wlkft1o!9bo+8j+p910uc60*+_j+wp1
 # Generate a key and store it securely
 ENCRYPTION_KEY = 'scjSs1IzMDuCpYJ_nNGqh-YJktFZAZWOCZgsksubxh0='  # Generate using Fernet.generate_key()
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
