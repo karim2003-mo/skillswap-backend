@@ -27,7 +27,9 @@ ENCRYPTION_KEY = 'scjSs1IzMDuCpYJ_nNGqh-YJktFZAZWOCZgsksubxh0='  # Generate usin
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = [
+    '*'
+]
 SUPABASE_URL="https://blppgxofprkvrpdhjkck.supabase.co/"
 SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJscHBneG9mcHJrdnJwZGhqa2NrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MTE3OTQ0MiwiZXhwIjoyMDU2NzU1NDQyfQ.GWxrk8IoMlVgPfR0NurtC5iGZWRhXe3hSyRuKwMhf7I'
 SUPABASE_BUCKET_NAME = 'media'
